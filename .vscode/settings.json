@@ -1,0 +1,9 @@
+{
+  // подсказывает TS/JS использовать не относительные пути
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+
+  // автоимпорты и подсказки
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true
+}

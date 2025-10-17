@@ -1,0 +1,19 @@
+# <type>(<scope>): <short summary>
+# types: feat | fix | docs | style | refactor | test | build | ci | chore
+# examples:
+#  feat(auth): add login screen
+#  fix(api): handle 401 on token refresh
+#  chore(eslint): add ESLint config
+
+<type>(<scope>): <short summary>
+
+# Why (optional): why this change is needed?
+# - ...
+
+# What changed (optional): key points of the change
+# - ...
+
+# Breaking changes (optional):
+# - ...
+
+# Footer (optional): Closes #123, Refs ABC-45

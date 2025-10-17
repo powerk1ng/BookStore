@@ -1,7 +1,7 @@
 {
   "name": "shelfie",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -13,10 +13,20 @@
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "@tamagui/babel-plugin": "^1.135.3",
+    "@tamagui/config": "^1.135.3",
     "expo": "~54.0.13",
+    "expo-linking": "~8.0.8",
+    "expo-router": "~6.0.12",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-dom": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.0",
+    "tamagui": "^1.135.3"
   },
   "devDependencies": {
     "@react-native/eslint-config": "^0.82.0",
